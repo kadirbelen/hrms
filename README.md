@@ -7,7 +7,7 @@
   ## DataAccess
   DataAccess katmanı veri tabanına bağlandığımız katmandır.Bu katmanda sadece veri tabanına data ekleme,silme,güncelleme vb. işlemler gerçekleştirilir.
   **JpaRepository** kullanılarak işlemler gerçekleştirilmiştir.
-  ##Business
+  ## Business
   Business katmanında iş kuralları yazılmıştır.**Dependency injection** kullanılarak bağımlılıklarımızı olabildiğince azalttık.
   ## Api
   Api katmanı projemizin artık dış dünyaya açıldı katmandır.@GetMapping(),@PostMapping gibi işlemler kullanılarak kullanıcıya datayı gösterme veya kullanıcıdan data
