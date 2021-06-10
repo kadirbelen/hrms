@@ -78,6 +78,8 @@ Bu pozisyonlar tekrar edemez. Kullanıcı uyarılır.<br/>
 ## Req 5 : İş arayanlar listelenebilmelidir. (Sadece tüm liste)<br/>
 
 ## Req 6 : İş pozisyonları listelenebilmelidir. (Sadece tüm liste)<br/>
+<br/>
+![image1](https://github.com/kadirbelen/hrms/blob/master/1.png?raw=true)
 
 <br/><br/>
 # İŞ İLANI
@@ -104,4 +106,6 @@ Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi
 Liste, tablo formunda gelmelidir.
 Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.<br/>
 ## Req 11 : İş verenler sistemdeki bir ilanı kapatabilmelidir. (Pasif ilan)
+<br/><br/>
+![image](https://github.com/kadirbelen/hrms/blob/master/2.png)
 
