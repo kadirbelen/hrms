@@ -16,11 +16,11 @@
   Bu katman da tüm projelerimizde geçerliliğini koruyan classlar,interfaceler yer almıştır.
 <br/>
 
-Veritabanı isterleri
+# Veritabanı isterleri
 
 <br/>
 
-Req 1 : İş Arayanlar sisteme kayıt olabilmelidir.
+## Req 1 : İş Arayanlar sisteme kayıt olabilmelidir.
 
 Kabul Kriterleri:
 
@@ -31,7 +31,7 @@ Doğrulama geçerli değilse kullanıcı bilgilendirilir.
 Daha önce kayıtlı bir e-posta veya tcno var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.
 Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir.
 <br/>
-Req 2 : İş verenler sisteme kayıt olabilmelidir.
+## Req 2 : İş verenler sisteme kayıt olabilmelidir.
 
 Kabul Kriterleri:
 
@@ -40,15 +40,17 @@ Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
 Şirket kayıtları iki şekilde doğrulanır. Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir. HRMS personelinin (bizim :)) onayı gerekmektedir.
 Daha önce kayıtlı bir e-posta var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.
 <br/>
-Req 3 : Sisteme genel iş pozisyonu isimleri eklenebilmelidir. Örneğin Software Developer, Software Architect.
+## Req 3 : Sisteme genel iş pozisyonu isimleri eklenebilmelidir. Örneğin Software Developer, Software Architect.
 
 Kabul Kriterleri:
 
 Bu pozisyonlar tekrar edemez. Kullanıcı uyarılır.
 <br/><br/><br/>
-#Spring Boot ile isterler yerine getirildi
+
+# Proje kod isterleri
+## Spring Boot ile isterler yerine getirildi
 <br/>
-Req 1 : İş Arayanlar sisteme kayıt olabilmelidir.
+## Req 1 : İş Arayanlar sisteme kayıt olabilmelidir.
 <br/>
 Kabul Kriterleri:
 
@@ -58,7 +60,7 @@ Mernis doğrulaması yapılarak sisteme kayıt gerçekleştirilir.
 Doğrulama geçerli değilse kullanıcı bilgilendirilir.
 Daha önce kayıtlı bir e-posta veya tcno var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.
 Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir.<br/>
-Req 2 : İş verenler sisteme kayıt olabilmelidir.<br/>
+## Req 2 : İş verenler sisteme kayıt olabilmelidir.<br/>
 
 Kabul Kriterleri:
 
@@ -66,20 +68,21 @@ Kayıt sırasında kullanıcıdan şirket adı, web sitesi, web sitesi ile aynı
 Tüm alanlar zorunludur. Kullanıcı bilgilendirilir.
 Şirket kayıtları iki şekilde doğrulanır. Kayıdın gerçekleşmesi için e-posta doğrulaması gerekir. HRMS personelinin (bizim :)) onayı gerekmektedir.
 Daha önce kayıtlı bir e-posta var ise kayıt gerçekleşmez. Kullanıcı bilgilendirilir.<br/>
-Req 3 : Sisteme genel iş pozisyonu isimleri eklenebilmelidir. Örneğin Software Developer, Software Architect.<br/>
+## Req 3 : Sisteme genel iş pozisyonu isimleri eklenebilmelidir. Örneğin Software Developer, Software Architect.<br/>
 
 Kabul Kriterleri:
 
 Bu pozisyonlar tekrar edemez. Kullanıcı uyarılır.<br/>
-Req 4 : İş verenler listelenebilmelidir. (Sadece tüm liste)<br/>
+## Req 4 : İş verenler listelenebilmelidir. (Sadece tüm liste)<br/>
 
-Req 5 : İş arayanlar listelenebilmelidir. (Sadece tüm liste)<br/>
+## Req 5 : İş arayanlar listelenebilmelidir. (Sadece tüm liste)<br/>
 
-Req 6 : İş pozisyonları listelenebilmelidir. (Sadece tüm liste)<br/>
+## Req 6 : İş pozisyonları listelenebilmelidir. (Sadece tüm liste)<br/>
 
 <br/><br/>
-#İş verenler sisteme iş ilanı ekleyebilir<br/>
-Req 7 : İş verenler sisteme iş ilanı ekleyebilmelidir.
+# İŞ İLANI
+## İş verenler sisteme iş ilanı ekleyebilir<br/>
+## Req 7 : İş verenler sisteme iş ilanı ekleyebilmelidir.
 
 İş ilanı formunda;
 Seçilebilir listeden (dropdown) genel iş pozisyonu seçilebilmelidir.(Örneğin Java Developer)(Zorunlu)
@@ -88,17 +91,17 @@ Seçilebilir listeden (dropdown) genel iş pozisyonu seçilebilmelidir.(Örneği
 Maaş skalası için min-max girişi yapılabilmelidir. (Opsiyonel)
 Açık pozisyon adedi girişi yapılabilmelidir. (Zorunlu)
 Son başvuru tarihi girişi yapılabilmelidir.<br/>
-Req 8 : Sistemdeki tüm aktif iş ilanları listelenebilmelidir.
+## Req 8 : Sistemdeki tüm aktif iş ilanları listelenebilmelidir.
 
 Liste, tablo formunda gelmelidir.
 Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.<br/>
-Req 9 : Sistemdeki tüm aktif iş ilanları tarihe göre listelenebilmelidir.
+## Req 9 : Sistemdeki tüm aktif iş ilanları tarihe göre listelenebilmelidir.
 
 Liste, tablo formunda gelmelidir.
 Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.<br/>
-Req 10 : Sistemde bir firmaya ait tüm aktif iş ilanları listelenebilmelidir.
+## Req 10 : Sistemde bir firmaya ait tüm aktif iş ilanları listelenebilmelidir.
 
 Liste, tablo formunda gelmelidir.
 Listede firmadı, genel iş pozisyonu adı, açık pozisyon adedi, yayın tarihi, son başvuru tarihi bilgileri olmalıdır.<br/>
-Req 11 : İş verenler sistemdeki bir ilanı kapatabilmelidir. (Pasif ilan)
+## Req 11 : İş verenler sistemdeki bir ilanı kapatabilmelidir. (Pasif ilan)
 
