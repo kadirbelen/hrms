@@ -16,4 +16,7 @@ public interface JobAdvertisementService {
 	DataResult<List<JobAdvertisement>> getAllIsActiveTrueAndEmployer(int employerId);
 	
 	Result chengeStatus(int jobAdvertisementId , int employerId);
+	
+	DataResult<List<JobAdvertisement>> findAllByJobTitle_Id(int id);
+	DataResult<List<JobAdvertisement>> findAllByCity_Id(int id);
 }

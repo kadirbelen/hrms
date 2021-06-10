@@ -88,5 +88,17 @@ public class JobAdvertisementManager implements JobAdvertisementService {
 		return new SuccessResult(message);
 		
 	}
+
+	@Override
+	public DataResult<List<JobAdvertisement>> findAllByJobTitle_Id(int id) {
+		
+		return new SuccessDataResult<List<JobAdvertisement>>(this.jobAdvertisementDao.findAllByJobTitle_Id(id));
+	}
+
+	@Override
+	public DataResult<List<JobAdvertisement>> findAllByCity_Id(int id) {
+		
+		return new SuccessDataResult<List<JobAdvertisement>>(this.jobAdvertisementDao.findAllByCity_Id(id));
+	}
 	
 }

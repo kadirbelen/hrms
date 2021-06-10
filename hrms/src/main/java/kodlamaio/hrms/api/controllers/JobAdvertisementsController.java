@@ -52,6 +52,16 @@ public class JobAdvertisementsController {
 		return this.jobAdvertisementService.getAllIsActiveTrueAndEmployer(employerId);
 	}
 	
+	@GetMapping("/findAllByJobTitleId")
+	public DataResult<List<JobAdvertisement>> findAllByJobTitle_Id(@RequestParam int id){
+		return this.jobAdvertisementService.findAllByJobTitle_Id(id);
+	}
+	
+	@GetMapping("/findAllByCityId")
+	public DataResult<List<JobAdvertisement>> findAllByCity_Id(@RequestParam int id){
+		
+		return this.jobAdvertisementService.findAllByCity_Id(id);
+	}
 	@PutMapping("/changeStatus")
 	public Result chengeStatus(int jobAdvertisementId, int employerId) {
 		
